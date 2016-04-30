@@ -1,0 +1,2 @@
+CREATE TABLE Products (ID int NOT NULL AUTO_INCREMENT, ItemID varchar(30)NOT NULL, ProductName varchar(30) NOT NULL, DepartmentName varchar(30) NOT NULL,Price varchar(30) NOT NULL, StockQuantity varchar(30) NOT NULL, PRIMARY KEY (ID));
+INSERT INTO Bamazon_db (ItemID, ProductName, DepartmentName, Price, StockQuantity) VALUES ('book', 'Game of Throne', 'Books and Audible', '$6.74', '116');
